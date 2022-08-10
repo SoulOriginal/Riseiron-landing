@@ -1,0 +1,41 @@
+// @import 'variables';
+// @import '~bootstrap/scss/bootstrap';
+// @import '~sweetalert2/src/sweetalert2';
+// @import '@fortawesome/fontawesome-svg-core/styles.css';
+
+// @import 'elements/card';
+// @import 'elements/navbar';
+// @import 'elements/buttons';
+// @import 'elements/transitions';
+* {
+  font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body,html{
+  padding:0;
+  margin: 0
+}
+@import "elements/notofication";
+// @import '~/node_modules/vue-on-toast/dist/vue-on-toast.css' ;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  margin: 0 !important;
+}
+.helper-text {
+  color: red;
+}
+.content-box{
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+}
+.underline-btn {
+  border-bottom: 1px solid !important;
+}
+
+.elements-gap {
+  gap: 10px;
+}
+.nowrap{
+  flex-flow: nowrap !important;
+}
