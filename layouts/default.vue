@@ -1,29 +1,12 @@
 <template>
   <v-app>
     <v-main>
-      <!-- <Navbar /> -->
-
-      <!-- <v-app-bar
-        id="home-app-bar"
-        app
-        fixed
-        color="transparent"
-        elevate-on-scroll
-        scroll-target="#scrolling-techniques-7"
-        elevation="1"
-        class="content-box"
-        height="64"
-      >
-        <nuxt-link to="/"> img </nuxt-link>
-        <v-spacer />
-        <v-btn> ВХОД </v-btn>
-        <v-btn> РЕГИСТРАЦИЯ </v-btn>
-      </v-app-bar> -->
+      <Navbar />
       <v-fade-transition mode="out-in">
         <nuxt />
       </v-fade-transition>
     </v-main>
-    <!-- <Footer /> -->
+    <Footer />
   </v-app>
 </template>
 

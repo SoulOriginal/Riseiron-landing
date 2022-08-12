@@ -29,6 +29,10 @@ body,html{
   max-width: 1440px !important;
   margin: 0 auto !important;
 }
+.content-box-sm{
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
 .underline-btn {
   border-bottom: 1px solid !important;
 }
@@ -38,4 +42,7 @@ body,html{
 }
 .nowrap{
   flex-flow: nowrap !important;
+}
+.gap15 {
+  gap: 15px;
 }
